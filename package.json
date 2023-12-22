@@ -1,0 +1,38 @@
+{
+  "name": "rexios-js",
+  "version": "0.0.3",
+  "author": "xxx",
+  "description": "common toolkit",
+  "keywords": [
+    "axios",
+    "rexios",
+    "replay axios",
+    "token"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/beijihan/rexios"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/beijihan/rexios/blob/main/README.md",
+  "bugs": "https://github.com/beijihan/rexios/issues",
+  "main": "dist/rexios.cjs.js",
+  "module": "dist/rexios.esm.js",
+  "browser": "dist/rexios.umd.js",
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^11.0.1",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup": "^1.29.0"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "pretest": "npm run build"
+  },
+  "files": [
+    "dist"
+  ]
+}
