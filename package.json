@@ -1,8 +1,8 @@
 {
   "name": "rexios-js",
   "version": "0.0.3",
-  "author": "xxx",
-  "description": "common toolkit",
+  "author": "wangkun",
+  "description": "replay your request",
   "keywords": [
     "axios",
     "rexios",
@@ -11,11 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/beijihan/rexios"
+    "url": "https://github.com/beijihan/rexios-js"
   },
   "license": "ISC",
-  "homepage": "https://github.com/beijihan/rexios/blob/main/README.md",
-  "bugs": "https://github.com/beijihan/rexios/issues",
+  "homepage": "https://github.com/beijihan/rexios-js/blob/main/README.md",
+  "bugs": "https://github.com/beijihan/rexios-js/issues",
   "main": "dist/rexios.cjs.js",
   "module": "dist/rexios.esm.js",
   "browser": "dist/rexios.umd.js",
